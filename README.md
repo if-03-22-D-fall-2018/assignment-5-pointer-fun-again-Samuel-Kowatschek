@@ -24,11 +24,11 @@ This assignment lets you practise the usage of structs, arrays and pointers to s
 2. Define a function `print_struct` which accepts the following paramters
    - a struct `PlayStruct` called `ps`
    - a pointer to a `PlayStruct` called `pps`
-   
-   The function shall print both parameters in the following form: 
+
+   The function shall print both parameters in the following form:
    - `Values of struct ps: <x>, <y>, <z>` where `<x>`, `<y>` and `<z>` shall be replaced by the actual values of the struct's fields passed to the function.
    - `Values of struct pps: <x>, <y>, <z>` where `<x>`, `<y>` and `<z>` shall be replaced by the actual values of the struct's fields passed to the function. Take care that here also the values are required to be printed although the address to `pps` is passed to the function.
-   
+
 4. Call the function `print_struct` in the `main` function and test your implementation.
 
 5. Define a function `change_struct` which accepts the same parameters as `print_struct`. In the function body the values of the two parameters shall be changed to some different values.
